@@ -1,0 +1,133 @@
+
+#Uppermenu{
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2);
+    background-color: black;
+    min-height: 20px;
+    margin-top: auto;
+}
+#Uppermenu a{
+    color: white;
+    text-decoration: none;
+    
+   
+   
+    
+}
+#Uppermenu a:hover{
+   color: gray;
+   
+    
+}
+#logo{
+    position: sticky;
+}
+.dropdown .dropbtn {
+    font-size: 20px;
+    color: black;
+    background-color: white;
+    font-family: inherit;
+    margin: 0;
+}
+
+#menu{
+
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2);
+    background-color: black;
+    max-height: 80px;
+    position: relative;
+    margin-top: -15px;
+    overflow: hidden;
+    
+    
+}
+
+#Ulist {
+    padding-top: 25px;
+    padding-left: 5%;
+    
+}
+
+#Ulist li{
+    display: inline;
+     color: white;
+    padding: 10px;
+    
+    
+
+}
+
+#Ulist a{
+    font-size: medium;
+    color: white;
+    text-decoration: none;
+    font-weight: 800;
+}
+#Ulist a:hover{
+    color: gray;
+}
+
+h3{
+    word-spacing: -5px;
+    font-weight: 800;
+    color: white;
+    text-decoration: none;
+}
+p{
+    color: white;
+}
+#Bg_clr_tbl{
+    margin-top: -60px;
+    
+}
+#Bg_clr_tbl tr{
+    background-color: black;
+    
+}
+#right{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+a{
+    color: white;
+    
+}
+h3 a:hover{
+    color: gray;
+}
+a:hover{
+    color: gray;
+}
+#tbl2{
+    background-color: black;
+}
+#tbl2 td{
+    border: 1px gray solid;
+}
+h1{
+    padding-left: 40px;
+    padding-top: 20px;
+}
+  
+@media only screen and (min-width: 700px){
+    .page-footer {
+        padding: 80px 40px;
+    }
+}
+
+
+.page-footer {
+    margin: 0 auto;
+    max-width: 1600px;
+    width: 100%;
+    background-color: black;
+    padding: 40px 20px;
+    border: gray 1px;
+    text-align: center;
+    text-decoration: underline;
+}
+*, *::before, *::after, html {
+    box-sizing: border-box;
+}
