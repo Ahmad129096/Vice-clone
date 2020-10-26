@@ -2,8 +2,9 @@
 #Uppermenu{
     box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2);
     background-color: black;
-    min-height: 20px;
-    margin-top: auto;
+    min-height: 40px;
+    
+   
 }
 #Uppermenu a{
     color: white;
@@ -35,8 +36,9 @@
     background-color: black;
     max-height: 80px;
     position: relative;
-    margin-top: -15px;
+    margin-top: -10px;
     overflow: hidden;
+    
     
     
 }
@@ -110,6 +112,16 @@ h1{
     padding-left: 40px;
     padding-top: 20px;
 }
+.Load_text{
+ color: black;
+ padding-top: 150px;
+ padding-bottom: 150px;
+ text-align: center;
+ text-decoration: underline;
+ font-weight: 800;
+ 
+}
+
   
 @media only screen and (min-width: 700px){
     .page-footer {
